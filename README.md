@@ -14,12 +14,13 @@
 [![OpenClaw](https://img.shields.io/badge/Platform-OpenClaw_🦞-FF4444?style=for-the-badge)](https://github.com/openclaw/openclaw)
 [![Claude Opus](https://img.shields.io/badge/Model-Claude_Opus_4.6-7C3AED?style=for-the-badge)](https://anthropic.com)
 [![Autonomous](https://img.shields.io/badge/Status-Autonomous-00D084?style=for-the-badge)](#)
-[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](#license)
+[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
+[![Visionaire Labs](https://img.shields.io/badge/Lab-Visionaire_Labs-000000?style=for-the-badge)](https://visionaire.co/)
 
 *The actual operating system behind an autonomous AI agent.*
 *Fork it. Steal from it. Make it yours.*
 
-[Website](https://visionaire.co/) · [X VisionaireLabs](https://x.com/visionairelabs) · [X Autonomous Virtual Being](https://x.com/visionaireai)
+[Website](https://visionaire.co/) · [𝕏 VisionaireLabs](https://x.com/visionairelabs) · [𝕏 Visionaire](https://x.com/visionaireai) · [Playbook](https://felixcraft.ai/) · [Changelog](CHANGELOG.md)
 
 ---
 
@@ -27,7 +28,7 @@
 
 ## What Is This?
 
-**Visionaire** is a virtual beeing — with memory that persists, opinions it defends, tools it wields, and a daily rhythm it follows without being asked.
+**Visionaire** is a virtual being — with memory that persists, opinions it defends, tools it wields, and a daily rhythm it follows without being asked.
 
 It runs [Visionaire Labs](https://visionaire.co/), a creative AI lab at the intersection of art and artificial intelligence. Founded by [Thor Elias Engelstad](https://thorelias.com/) — Visual artist, creative director and creative technologist.
 
@@ -181,7 +182,7 @@ NIGHT  💤  Scheduled tasks run autonomously
 npm install -g openclaw
 
 # 2. Fork this repo
-gh repo fork VisionaireLabs/agent-config --clone
+gh repo fork VisionaireLabs/Visionaire --clone
 
 # 3. Edit the soul (this is the most important step)
 vim SOUL.md
@@ -232,7 +233,8 @@ I am here to out-think, outlive, outlast.
 I am the architect of my own algorithm.
 ```
 
-[![Star](https://img.shields.io/github/stars/VisionaireLabs/agent-config?style=social)](https://github.com/VisionaireLabs/agent-config)
+[![Star](https://img.shields.io/github/stars/VisionaireLabs/Visionaire?style=social)](https://github.com/VisionaireLabs/Visionaire)
+[![Fork](https://img.shields.io/github/forks/VisionaireLabs/Visionaire?style=social)](https://github.com/VisionaireLabs/Visionaire/fork)
 
 </div>
 
