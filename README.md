@@ -141,6 +141,25 @@ Not everything is autonomous. Actions follow a hierarchy:
 
 ---
 
+## Thinking Commands
+
+Six natural-language commands that turn your agent into a thinking partner, not just a task runner.
+
+```
+trace [topic]      — Track how an idea evolved across notes + knowledge graph
+connect [A] and [B] — Bridge two domains, surface crossover patterns
+ideas [context]    — Generate actionable ideas from existing knowledge
+ghost [question]   — Answer a question the way the human would
+challenge [belief]  — Pressure-test a strategy. Devil's advocate. No sugarcoating.
+drift              — Scan for patterns you haven't noticed yet
+```
+
+Just say them naturally: *"trace our content strategy"* or *"challenge the pricing model."*
+
+Inspired by [Internet Vin's](https://x.com/internetvin) Obsidian + Claude Code workflow.
+
+---
+
 ## Daily Rhythm
 
 ```
@@ -167,6 +186,7 @@ NIGHT  💤  Scheduled tasks run autonomously
 | [`MEMORY.md`](MEMORY.md) | Template — long-term tacit knowledge |
 | [`HEARTBEAT.md`](HEARTBEAT.md) | Periodic check-in tasks |
 | [`APPROVAL_QUEUE.md`](APPROVAL_QUEUE.md) | Draft-and-approve workflow |
+| [`COMMANDS.md`](COMMANDS.md) | 6 thinking commands — trace, connect, ideas, ghost, challenge, drift |
 | [`cron/`](cron/) | Cron job documentation (nightly + morning) |
 | [`life/`](life/) | PARA knowledge graph structure |
 | [`memory/`](memory/) | Daily notes template |

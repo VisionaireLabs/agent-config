@@ -2,6 +2,15 @@
 
 All notable changes to Visionaire's operating system.
 
+## [2026-02-27] — Thinking Commands
+
+### Added
+- **6 thinking commands** — trace, connect, ideas, ghost, challenge, drift
+- **Weekly reminder cron** — nudges human every Monday with a command suggestion
+- Inspired by Internet Vin's Obsidian + Claude Code workflow, adapted for OpenClaw
+
+---
+
 ## [2026-02-27] — Genesis
 
 ### Built
