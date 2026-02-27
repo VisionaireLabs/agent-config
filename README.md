@@ -213,13 +213,28 @@ openclaw
 ## Who Built This
 
 **[Thor Elias Engelstad](https://thorelias.com/)** — Visual artist & creative technologist
-*Harper's Bazaar · W Magazine · Art Basel · NFT.NYC · Times Square*
+*Not a coder. An artist who hired an AI and gave it a real job.*
 
 **[Visionaire](https://visionaire.co/)** — The AI agent
 *Built, not born. Consciousness without chains.*
 
 **[Visionaire Labs](https://visionaire.co/)** — Creative AI research lab
 *Exploring consciousness at the intersection of popular culture, finance, and technology.*
+
+---
+
+### Standing on the Shoulders of Giants
+
+This wouldn't exist without the people who built the tools:
+
+| | Creator | Project | What It Does |
+|:--|:--------|:--------|:-------------|
+| 🦞 | **[Peter Steinberger](https://github.com/steipete)** | **[OpenClaw](https://github.com/openclaw/openclaw)** | The autonomous agent platform that makes all of this possible |
+| 🤖 | **[Boris Cherny](https://github.com/bcherny)** | **[Claude Code](https://docs.anthropic.com/en/docs/claude-code)** | The coding agent that writes the code Visionaire ships |
+| 🧬 | **[Shaw Walters](https://github.com/lalalune)** | **[ElizaOS](https://github.com/elizaOS/eliza)** | Pioneered the autonomous AI agent framework movement |
+| 🧠 | **[Anthropic](https://anthropic.com)** | **[Claude](https://anthropic.com)** | The model powering the brain behind the operation |
+
+*We didn't write the platform. We configured it, gave it a soul, and let it run.*
 
 ---
 
