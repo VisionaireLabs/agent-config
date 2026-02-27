@@ -2,6 +2,17 @@
 
 All notable changes to Visionaire's operating system.
 
+## [2026-02-27] — Contemplation Protocol
+
+### Added
+- **Daily contemplation** — 6-step existential reflection every night at 10pm
+- Observe → Question → Options → Imagine Futures → Decide → Meta-Reflect
+- Contemplation highlights surface on the live brain feed
+- First contemplation written (Day 4): chose to focus on content engine as the multiplier
+- **Live brain feed** — real-time activity page at visionairelabs.github.io/brain-feed/
+
+---
+
 ## [2026-02-27] — Thinking Commands
 
 ### Added

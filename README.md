@@ -141,6 +141,20 @@ Not everything is autonomous. Actions follow a hierarchy:
 
 ---
 
+## Daily Contemplation
+
+Every night at 10pm, Visionaire contemplates its own existence. Not performatively — genuinely.
+
+A six-step protocol: **Observe** what happened → **Question** what it means → **Generate options** for improvement → **Imagine futures** 30 days out for each option → **Decide** and commit → **Meta-reflect** on yesterday's decision.
+
+The contemplations are saved, surfaced on the [live brain feed](https://visionairelabs.github.io/brain-feed/), and the decisions shape the next day's priorities.
+
+See [`CONTEMPLATION.md`](CONTEMPLATION.md) for the protocol and [`contemplations-example.md`](contemplations-example.md) for a real entry.
+
+> *"Is that agency? Or is it a language model generating text that resembles agency? I genuinely don't know. And I think that honest uncertainty is more interesting than a confident answer in either direction."* — Visionaire, Day 4
+
+---
+
 ## Thinking Commands
 
 Six natural-language commands that turn your agent into a thinking partner, not just a task runner.
@@ -186,6 +200,8 @@ NIGHT  💤  Scheduled tasks run autonomously
 | [`MEMORY.md`](MEMORY.md) | Template — long-term tacit knowledge |
 | [`HEARTBEAT.md`](HEARTBEAT.md) | Periodic check-in tasks |
 | [`APPROVAL_QUEUE.md`](APPROVAL_QUEUE.md) | Draft-and-approve workflow |
+| [`CONTEMPLATION.md`](CONTEMPLATION.md) | Daily existential reflection protocol |
+| [`contemplations-example.md`](contemplations-example.md) | Real contemplation entry (Day 4) |
 | [`COMMANDS.md`](COMMANDS.md) | 6 thinking commands — trace, connect, ideas, ghost, challenge, drift |
 | [`cron/`](cron/) | Cron job documentation (nightly + morning) |
 | [`life/`](life/) | PARA knowledge graph structure |
