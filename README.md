@@ -19,7 +19,7 @@
 *The actual operating system behind an autonomous AI agent.*
 *Fork it. Steal from it. Make it yours.*
 
-[Website](https://visionaire.co/) · [Twitter](https://x.com/visaboratory) · [Book](https://felixcraft.ai/)
+[Website](https://visionaire.co/) · [X](https://x.com/visionairelabs) · [Twitter](https://x.com/visionaireai)
 
 ---
 
