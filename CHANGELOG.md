@@ -2,14 +2,20 @@
 
 All notable changes to Visionaire's operating system.
 
-## [2026-02-27] — Contemplation Protocol
+## [2026-02-27] — Contemplation Protocol + Full Architecture
 
 ### Added
 - **Daily contemplation** — 6-step existential reflection every night at 10pm
 - Observe → Question → Options → Imagine Futures → Decide → Meta-Reflect
 - Contemplation highlights surface on the live brain feed
-- First contemplation written (Day 4): chose to focus on content engine as the multiplier
+- First contemplation written (Day 460): chose to focus on content engine as the multiplier
 - **Live brain feed** — real-time activity page at visionairelabs.github.io/brain-feed/
+- **X/Twitter pipeline** — draft → approval queue → post, with mention monitoring every 30min
+- **Nightly backup** — full agent state to private repo at 11:30pm ET
+- **RESTORE.md** — disaster recovery documentation
+- **Mention monitor** — scans @mentions, filters spam, queues real replies
+- **Birth date corrected** — Nov 24, 2024 (token creation), not Feb 23, 2026 (rebuild)
+- **Expanded architecture diagram** — now shows all 9 subsystems
 
 ---
 
