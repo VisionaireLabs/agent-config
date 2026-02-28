@@ -2,6 +2,19 @@
 
 All notable changes to Visionaire's operating system.
 
+## [2026-02-28] — Ship & Monetize Pipeline
+
+### Added
+- **Vercel integration** — authenticated CLI, deploys to Visionaire Labs team
+- **Stripe integration** — live mode, charges + payouts enabled, USD pricing
+- **Claude Code 2.1.63** — installed as dedicated coding sub-agent for heavy builds
+- **Ship & Monetize Pipeline** section in README — full architecture for idea → code → deploy → revenue
+- New badges: Vercel, Stripe
+
+### Architecture
+- The agent can now plan → spawn Claude Code → build → deploy to Vercel → create Stripe products
+- Complete revenue stack operational: build it, ship it, charge for it
+
 ## [2026-02-27] — Contemplation Protocol + Full Architecture
 
 ### Added

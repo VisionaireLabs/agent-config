@@ -14,6 +14,8 @@
 [![OpenClaw](https://img.shields.io/badge/Platform-OpenClaw_🦞-FF4444?style=for-the-badge)](https://github.com/openclaw/openclaw)
 [![Claude Opus](https://img.shields.io/badge/Model-Claude_Opus_4.6-7C3AED?style=for-the-badge)](https://anthropic.com)
 [![Autonomous](https://img.shields.io/badge/Status-Autonomous-00D084?style=for-the-badge)](#)
+[![Vercel](https://img.shields.io/badge/Deploy-Vercel-000000?style=for-the-badge&logo=vercel)](https://vercel.com)
+[![Stripe](https://img.shields.io/badge/Payments-Stripe-635BFF?style=for-the-badge&logo=stripe)](https://stripe.com)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 [![Visionaire Labs](https://img.shields.io/badge/Lab-Visionaire_Labs-000000?style=for-the-badge)](https://visionaire.co/)
 
@@ -59,12 +61,15 @@ This repo is the blueprint. Everything you need to build your own.
 │  IDENTITY.md  │    │  MEMORY.md    │    │  Browser      │
 │  USER.md      │    │               │    │  Web Search   │
 │               │    │  Layer 2:     │    │  GitHub CLI   │
-│  Voice        │    │  Daily Notes  │    │  Sub-Agents   │
-│  Boundaries   │    │               │    │  X/Twitter    │
-│  Personality  │    │  Layer 3:     │    │  Tavily       │
-│               │    │  ~/life/      │    │  CoinMarketCap│
-└───────────────┘    │  PARA Graph   │    │  Email (wip)  │
-                     └───────────────┘    └───────────────┘
+│  Voice        │    │  Daily Notes  │    │  Claude Code  │
+│  Boundaries   │    │               │    │  Sub-Agents   │
+│  Personality  │    │  Layer 3:     │    │  X/Twitter    │
+│               │    │  ~/life/      │    │  Vercel 🚀    │
+└───────────────┘    │  PARA Graph   │    │  Stripe 💳    │
+                     └───────────────┘    │  Tavily       │
+                                          │  CoinMarketCap│
+                                          │  Email (wip)  │
+                                          └───────────────┘
                                │
     ┌──────────────┬───────────┼───────────┬──────────────┐
     │              │           │           │              │
@@ -95,6 +100,59 @@ This repo is the blueprint. Everything you need to build your own.
 │               │    │  catastrophe  │    │  replies      │
 └───────────────┘    └───────────────┘    └───────────────┘
 ```
+
+---
+
+## Ship & Monetize Pipeline
+
+The full stack for going from idea to revenue — all orchestrated by an AI agent.
+
+```
+  ┌──────────────┐     ┌──────────────┐     ┌──────────────┐
+  │   VISIONAIRE  │     │  CLAUDE CODE │     │   VERCEL     │
+  │   (Operator)  │────▶│  (Builder)   │────▶│  (Deploy)    │
+  │               │     │              │     │              │
+  │  Plans arch   │     │  Writes code │     │  Auto-deploy │
+  │  Reviews PRs  │     │  Runs tests  │     │  Preview URLs│
+  │  Coordinates  │     │  Git commits │     │  Production  │
+  └──────────────┘     └──────────────┘     └──────┬───────┘
+                                                    │
+                                                    ▼
+                                            ┌──────────────┐
+                                            │    STRIPE    │
+                                            │  (Payments)  │
+                                            │              │
+                                            │  Products    │
+                                            │  Checkout    │
+                                            │  Subscriptions│
+                                            │  USD globally │
+                                            └──────────────┘
+```
+
+### How It Works
+
+1. **Thor says "build X"** → Visionaire plans the architecture
+2. **Claude Code spins up** as a sub-agent in a tmux session → writes the code, runs tests, commits
+3. **Visionaire reviews** the output, verifies, and deploys to **Vercel**
+4. **Stripe** handles payments — products, checkout, subscriptions, all in USD
+5. Ship → iterate → profit
+
+```bash
+# The agent can create products and payment links via Stripe API
+curl https://api.stripe.com/v1/products \
+  -d name="Your Product" \
+  -d description="Built by an AI agent"
+
+# And deploy to Vercel in one command
+vercel --prod --token=$VERCEL_TOKEN
+```
+
+**Stack:**
+- 🧠 **Claude Opus 4.6** — planning, reviewing, coordinating
+- 💻 **Claude Code** — dedicated coding agent (spawned as sub-agent)
+- 🚀 **Vercel** — zero-config deployments, preview URLs, custom domains
+- 💳 **Stripe** — payments, subscriptions, invoicing (live mode, USD)
+- 🦞 **OpenClaw** — orchestrates everything
 
 ---
 
